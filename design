@@ -1,0 +1,15 @@
+navbar
+landing page
+marquee
+about 
+playful
+ready to start
+cards
+cards
+footer
+
+
+Notes : 
+we can use backtickes inside {`we can also use condition inside this like ${index === 4 && "ml-32"}`}
+
+to give margin at top we have to fix it with pt-1 or border top css
