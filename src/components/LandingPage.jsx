@@ -4,13 +4,13 @@ const LandingPage = () => {
   return (
     <div className='w-full h-screen bg-zinc-900 pt-1' >
       
-      <div className='textstructure mt-72 px-20  '>
+      <div className='textstructure tracking-tighter  mt-62 px-20  '>
         {["We Create", "Eye Opening", "Presentations"].map((item,index)=>{
-          return   <div className="masker bg-amber-800 overflow-hidden ">
+          return   <div className="masker  overflow-hidden ">
             <div className='w-fit flex  '>
 
           {index === 1 && <div className='mr-5 w-[8vw] rounded-md top-[1vw]  h-[5vw] relative  bg-red-500'></div>}
-          <h1 className="flex items-center uppercase text-[8vw] leading-[7vw] h-full  font-['Founders Grotesk'] tracking-tighter font-medium "  > {item} </h1>
+          <h1 className="flex items-center uppercase text-[7vw] leading-[7vw] h-full  font-['Founders Grotesk'] tracking-tighter font-extrabold "  > {item} </h1>
             </div>
         </div>
         })}
