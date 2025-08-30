@@ -14,7 +14,9 @@ export default defineConfig({
   extend: {
     fontFamily: {
       bebas: ['"Bebas Neue"', 'sans-serif'],
+        founders: ["Founder_Grotest_BOLD", "sans-serif"],
     },
   },
 }
 })
+
