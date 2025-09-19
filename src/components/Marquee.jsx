@@ -14,7 +14,7 @@ const Marquee = () => {
           transition={{ ease: "linear", repeat: Infinity, duration: 10 }}
           className="text-[22vw] leading-none  font-['Founders Grotesk'] pr-10  uppercase  tracking-tighter font-extrabold "
         >
-          We are Ochi
+          We are Stars
         </motion.h1>
         <motion.h1
           initial={{ x: "0" }}
