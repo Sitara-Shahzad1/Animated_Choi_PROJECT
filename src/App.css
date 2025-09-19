@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
+
 @font-face {
   font-family: "Founder_Grotest_BOLD";
   src: url("assets/fonts/Founders_Grotesk/FoundersGrotesk-Bold.otf") format("opentype");
